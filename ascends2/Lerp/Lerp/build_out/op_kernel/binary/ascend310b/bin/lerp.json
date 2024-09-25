@@ -1,0 +1,114 @@
+{
+  "binList": [
+    {
+      "simplifiedKey": [
+        "Lerp/d=0,p=0/0,2/0,2/0,2/0,2",
+        "Lerp/d=1,p=0/0,2/0,2/0,2/0,2"
+      ],
+      "staticKey": "10ece6b820443a55859e93e431b9869965527700534b902d054c8d6c436c9db4",
+      "int64Mode": false,
+      "inputs": [
+        {
+          "name": "start",
+          "index": 0,
+          "dtype": "float32",
+          "format": "ND",
+          "paramType": "required",
+          "shape": [
+            -2
+          ]
+        },
+        {
+          "name": "end",
+          "index": 1,
+          "dtype": "float32",
+          "format": "ND",
+          "paramType": "required",
+          "shape": [
+            -2
+          ]
+        },
+        {
+          "name": "weight",
+          "index": 2,
+          "dtype": "float32",
+          "format": "ND",
+          "paramType": "required",
+          "shape": [
+            -2
+          ]
+        }
+      ],
+      "outputs": [
+        {
+          "name": "y",
+          "index": 0,
+          "dtype": "float32",
+          "format": "ND",
+          "paramType": "required",
+          "shape": [
+            -2
+          ]
+        }
+      ],
+      "binInfo": {
+        "jsonFilePath": "ascend310b/lerp/Lerp_2c5332bfea4d2b6c519a7a414ae75aa9.json"
+      }
+    },
+    {
+      "simplifiedKey": [
+        "Lerp/d=0,p=0/1,2/1,2/1,2/1,2",
+        "Lerp/d=1,p=0/1,2/1,2/1,2/1,2"
+      ],
+      "staticKey": "f43dcf857ee48ae11387644d1717d8b737e9604ac48eb661601db1e572bea414",
+      "int64Mode": false,
+      "inputs": [
+        {
+          "name": "start",
+          "index": 0,
+          "dtype": "float16",
+          "format": "ND",
+          "paramType": "required",
+          "shape": [
+            -2
+          ]
+        },
+        {
+          "name": "end",
+          "index": 1,
+          "dtype": "float16",
+          "format": "ND",
+          "paramType": "required",
+          "shape": [
+            -2
+          ]
+        },
+        {
+          "name": "weight",
+          "index": 2,
+          "dtype": "float16",
+          "format": "ND",
+          "paramType": "required",
+          "shape": [
+            -2
+          ]
+        }
+      ],
+      "outputs": [
+        {
+          "name": "y",
+          "index": 0,
+          "dtype": "float16",
+          "format": "ND",
+          "paramType": "required",
+          "shape": [
+            -2
+          ]
+        }
+      ],
+      "binInfo": {
+        "jsonFilePath": "ascend310b/lerp/Lerp_c2d76805c5cc5d3b92dd6208d8173af8.json"
+      }
+    }
+  ]
+}

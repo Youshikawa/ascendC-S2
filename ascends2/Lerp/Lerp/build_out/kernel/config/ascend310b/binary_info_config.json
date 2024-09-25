@@ -1,0 +1,28 @@
+{
+  "Lerp": {
+    "dynamicRankSupport": true,
+    "simplifiedKeyMode": 0,
+    "binaryList": [
+      {
+        "coreType": 2,
+        "simplifiedKey": "Lerp/d=0,p=0/0,2/0,2/0,2/0,2",
+        "binPath": "ascend310b/lerp/Lerp_2c5332bfea4d2b6c519a7a414ae75aa9.o"
+      },
+      {
+        "coreType": 2,
+        "simplifiedKey": "Lerp/d=1,p=0/0,2/0,2/0,2/0,2",
+        "binPath": "ascend310b/lerp/Lerp_2c5332bfea4d2b6c519a7a414ae75aa9.o"
+      },
+      {
+        "coreType": 2,
+        "simplifiedKey": "Lerp/d=0,p=0/1,2/1,2/1,2/1,2",
+        "binPath": "ascend310b/lerp/Lerp_c2d76805c5cc5d3b92dd6208d8173af8.o"
+      },
+      {
+        "coreType": 2,
+        "simplifiedKey": "Lerp/d=1,p=0/1,2/1,2/1,2/1,2",
+        "binPath": "ascend310b/lerp/Lerp_c2d76805c5cc5d3b92dd6208d8173af8.o"
+      }
+    ]
+  }
+}

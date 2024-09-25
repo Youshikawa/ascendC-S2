@@ -1,0 +1,94 @@
+{
+  "binList": [
+    {
+      "simplifiedKey": [
+        "Xlogy/d=0,p=0/1,2/1,2/1,2",
+        "Xlogy/d=1,p=0/1,2/1,2/1,2"
+      ],
+      "staticKey": "24db4d78a3a31c0287aa11345320c199348443901fef8fe630f68f86fd5dc348",
+      "int64Mode": false,
+      "inputs": [
+        {
+          "name": "x1",
+          "index": 0,
+          "dtype": "float16",
+          "format": "ND",
+          "paramType": "required",
+          "shape": [
+            -2
+          ]
+        },
+        {
+          "name": "x2",
+          "index": 1,
+          "dtype": "float16",
+          "format": "ND",
+          "paramType": "required",
+          "shape": [
+            -2
+          ]
+        }
+      ],
+      "outputs": [
+        {
+          "name": "y",
+          "index": 0,
+          "dtype": "float16",
+          "format": "ND",
+          "paramType": "required",
+          "shape": [
+            -2
+          ]
+        }
+      ],
+      "binInfo": {
+        "jsonFilePath": "ascend310b/xlogy/Xlogy_04a7dddd80dbe3c8bc9be3a031af2a47.json"
+      }
+    },
+    {
+      "simplifiedKey": [
+        "Xlogy/d=0,p=0/0,2/0,2/0,2",
+        "Xlogy/d=1,p=0/0,2/0,2/0,2"
+      ],
+      "staticKey": "295935613b943d6a71aa3e5b596ee7da1f284cfde70cbf59960f8c546b5d4d30",
+      "int64Mode": false,
+      "inputs": [
+        {
+          "name": "x1",
+          "index": 0,
+          "dtype": "float32",
+          "format": "ND",
+          "paramType": "required",
+          "shape": [
+            -2
+          ]
+        },
+        {
+          "name": "x2",
+          "index": 1,
+          "dtype": "float32",
+          "format": "ND",
+          "paramType": "required",
+          "shape": [
+            -2
+          ]
+        }
+      ],
+      "outputs": [
+        {
+          "name": "y",
+          "index": 0,
+          "dtype": "float32",
+          "format": "ND",
+          "paramType": "required",
+          "shape": [
+            -2
+          ]
+        }
+      ],
+      "binInfo": {
+        "jsonFilePath": "ascend310b/xlogy/Xlogy_21330184bf3ef887ae82ce6f04a12a26.json"
+      }
+    }
+  ]
+}

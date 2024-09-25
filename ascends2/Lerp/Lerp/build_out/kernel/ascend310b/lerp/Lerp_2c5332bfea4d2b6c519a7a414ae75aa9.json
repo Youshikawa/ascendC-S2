@@ -1,0 +1,89 @@
+{
+    "binFileName": "Lerp_2c5332bfea4d2b6c519a7a414ae75aa9",
+    "binFileSuffix": ".o",
+    "blockDim": -1,
+    "coreType": "VectorCore",
+    "core_type": "AIV",
+    "kernelName": "Lerp_2c5332bfea4d2b6c519a7a414ae75aa9",
+    "magic": "RT_DEV_BINARY_MAGIC_ELF",
+    "memoryStamping": [],
+    "opParaSize": 360,
+    "parameters": [],
+    "sha256": "5711a4ec332f7cb698841b7162757d9f97509d53f3d873586c15784690f64b21",
+    "workspace": {
+        "num": 1,
+        "size": [
+            -1
+        ],
+        "type": [
+            0
+        ]
+    },
+    "kernelList": [
+        {
+            "kernelName": "Lerp_2c5332bfea4d2b6c519a7a414ae75aa9_1"
+        },
+        {
+            "kernelName": "Lerp_2c5332bfea4d2b6c519a7a414ae75aa9_2"
+        }
+    ],
+    "optionalInputMode": "gen_placeholder",
+    "compileInfo": {},
+    "supportInfo": {
+        "implMode": "",
+        "int64Mode": false,
+        "simplifiedKeyMode": 0,
+        "simplifiedKey": [
+            "Lerp/d=0,p=0/0,2/0,2/0,2/0,2",
+            "Lerp/d=1,p=0/0,2/0,2/0,2/0,2"
+        ],
+        "staticKey": "10ece6b820443a55859e93e431b9869965527700534b902d054c8d6c436c9db4",
+        "inputs": [
+            {
+                "name": "start",
+                "index": 0,
+                "dtype": "float32",
+                "format": "ND",
+                "paramType": "required",
+                "shape": [
+                    -2
+                ]
+            },
+            {
+                "name": "end",
+                "index": 1,
+                "dtype": "float32",
+                "format": "ND",
+                "paramType": "required",
+                "shape": [
+                    -2
+                ]
+            },
+            {
+                "name": "weight",
+                "index": 2,
+                "dtype": "float32",
+                "format": "ND",
+                "paramType": "required",
+                "shape": [
+                    -2
+                ]
+            }
+        ],
+        "outputs": [
+            {
+                "name": "y",
+                "index": 0,
+                "dtype": "float32",
+                "format": "ND",
+                "paramType": "required",
+                "shape": [
+                    -2
+                ]
+            }
+        ],
+        "opMode": "dynamic",
+        "optionalInputMode": "gen_placeholder",
+        "deterministic": "ignore"
+    }
+}
